@@ -15,20 +15,20 @@ This project was built using **Python 2.7** and IDLE (Python GUI).
 
 The project implements the modules:
 
-*media.py
-*entertainment_center.py
-*fresh_tomatoes.py
+* media.py
+* entertainment_center.py
+* fresh_tomatoes.py
 
-**This project uses Docstrings. To know more about an** *object* **access its __doc__ attribute or run help(*object*) in the Python**shell**
+**This project uses Docstrings. To know more about an** *object* **access its __doc__ attribute or run** help(*object*) **in the Python shell**
 
 The following libraries from the *Python Standard Library* were used:
 
-*urllib2
-*urllib
-*json
-*webbrowser
-*os 
-*re
+* urllib2
+* urllib
+* json
+* webbrowser
+* os 
+* re
 
 ## OMDb API
 
