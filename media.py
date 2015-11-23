@@ -3,8 +3,11 @@ import urllib2
 import urllib
 import json
 
+"""Class Movie lets you create movie objects and watch their trailers in the browser"""
+
 # This code uses the OMDb API to access more details about a movie
 class Movie():
+    """Create detailed Movie Objects simply by passing in a movie title and its youtube trailer link"""
     # Constructor
     def __init__(self, movie_title, trailer_youtube):
         params = {'t': movie_title} 
@@ -35,6 +38,7 @@ class Movie():
 
     # Instance method
     def show_trailer(self):
+        """Vie the trailer in your browser"""
         webbrowser.open(self.trailer_youtube_url)
         
         

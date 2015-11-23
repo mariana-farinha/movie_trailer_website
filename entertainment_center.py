@@ -1,6 +1,8 @@
 import fresh_tomatoes
 import media
 
+"""To add more Movie instances edit this file. Then, save your changes, run the module and generate the HTML"""
+
 # Create movie instances
 toy_story = media.Movie("Toy Story","https://www.youtube.com/watch?v=KYz2wyBy3kc")
 top_gun = media.Movie("Top Gun", "https://www.youtube.com/watch?v=qAfbp3YX9F0")

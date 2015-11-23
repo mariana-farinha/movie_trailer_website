@@ -2,6 +2,8 @@ import webbrowser
 import os
 import re
 
+"""This module is used to generate the Fresh Tomatoes Movie Website"""
+
 
 # Styles and scripting for the page
 main_page_head = '''
@@ -143,6 +145,7 @@ movie_tile_content = '''
 
 
 def create_movie_tiles_content(movies):
+    """Receives an array of Movie objects and adds their content to the HTML"""
     # The HTML content for this section of the page
     content = ''
     for movie in movies:
@@ -170,6 +173,7 @@ def create_movie_tiles_content(movies):
 
 
 def open_movies_page(movies):
+    """Receives an array of Movie objects and generates the Fresh Tomatoes HTML file"""
     # Create or overwrite the output file
     output_file = open('fresh_tomatoes.html', 'w')
 
