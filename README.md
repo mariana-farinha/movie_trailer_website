@@ -4,7 +4,7 @@ Watch the trailers of famous movies
 
 This project was built using **Python 2.7** and IDLE (Python GUI).
 
-# How To
+# How To Add Movies
 
 1. Open fresh_tomatoes.html in the browser to see how the final result will look like
 2. Add other Movie instances in entertainment_center.py and save your changes
