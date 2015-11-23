@@ -55,6 +55,10 @@ main_page_head = '''
             top: 0;
             background-color: white;
         }
+
+
+
+        
     </style>
     <script type="text/javascript" charset="utf-8">
         // Pause the video when the modal is closed
@@ -106,7 +110,7 @@ main_page_content = '''
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers</a>
+            <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-film" aria-hidden="true"></span> Fresh Tomatoes Movie Trailers</a>
           </div>
         </div>
       </div>
@@ -127,12 +131,12 @@ movie_tile_content = '''
     <h2>{movie_title}</h2>
 </div>
 <div>
-<p>IMDB Rating: {imdb_rating}</p>
-<p>Rated: {rated}</p>
-<p>Plot: {storyline}</p>
-<p>Actors: {actors}</p>
-<p>Runtime: {runtime}</p>
-<p>Year: {year}</p>
+<p><b>IMDB Rating</b>: {imdb_rating}</p>
+<p><b>Rated</b>: {rated}</p>
+<p><b>Plot</b>: {storyline}</p>
+<p><b>Actors</b>: {actors}</p>
+<p><b>Runtime</b>: {runtime}</p>
+<p><b>Year</b>: {year}</p>
 </div>
 </div>
 '''
